@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "773861073676",
+    "firebase_url": "https://sevgilimeapp-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "sevgilimeapp",
+    "storage_bucket": "sevgilimeapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773861073676:android:2f436e38cc88dc9eda1f29",
+        "android_client_info": {
+          "package_name": "com.enes.sevgilime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJXUKl2rHlTz1tvC7NS1R6qlAVbqPVTZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

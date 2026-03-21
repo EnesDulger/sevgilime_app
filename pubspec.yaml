@@ -1,0 +1,60 @@
+name: sevgilime
+description: "Gülçin için uygulama"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lottie: ^3.1.0
+  url_launcher: ^6.2.4  # Link açmak (Spotify/YouTube) için
+  intl: ^0.19.0         # Tarih formatlamak için
+  google_fonts: ^6.1.0
+  confetti: ^0.7.0
+
+  audioplayers: ^5.2.1
+
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+
+  cupertino_icons: ^1.0.8
+  flutter_map: ^6.1.0       # Harita için (Ücretsiz)
+  latlong2: ^0.9.0          # Koordinat işlemleri için
+  flutter_fortune_wheel: ^1.2.0 # Çarkıfelek için
+  rxdart: ^0.27.7           # Çarkın dönmesi için gerekli
+  image_picker: ^1.0.7    # fotoğraflar için
+  shared_preferences: ^2.2.2   # telefona veriyi kaydetmek için
+  firebase_core: ^4.5.0
+  firebase_database: ^12.1.4
+  firebase_storage: ^13.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+     - assets/
+     - assets/bizim_sarkimiz.mp3
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "icon.png"
